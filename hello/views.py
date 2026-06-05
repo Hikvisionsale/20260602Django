@@ -14,3 +14,4 @@ def login(request):
     return HttpResponse("This is the <bold>Login</bold> page.")
 
 def forgot_password(request):
+    return HttpResponse("This is the <bold>Forgot Password</bold> page.")
