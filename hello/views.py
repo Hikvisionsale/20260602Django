@@ -12,3 +12,5 @@ def register(request):
 
 def login(request):
     return HttpResponse("This is the <bold>Login</bold> page.")
+
+def forgot_password(request):
